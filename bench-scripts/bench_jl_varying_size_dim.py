@@ -7,8 +7,7 @@ subprocess.run(["make"])
 
 print("running the bench_jl_varying_size_dim")
 
-k = 41
-# 41 for 100k, 44 for 200k
+k = 200
 num_records = 100000
 num_dimensions = 4
 print("running the case for " + str(num_records) + " entries, with k value " + str(k) + ", and " + str(num_dimensions) + " dimensions")
