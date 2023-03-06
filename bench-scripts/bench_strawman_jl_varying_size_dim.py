@@ -8,7 +8,7 @@ subprocess.run(["make"])
 print("running the bench_strawman_jl_varying_size_dim")
 
 k = 200
-num_records_list = [100, 200, 500]
+num_records_list = [100, 200]
 num_dimensions = 4
 
 for num_records in num_records_list:
